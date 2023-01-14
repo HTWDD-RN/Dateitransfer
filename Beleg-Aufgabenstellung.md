@@ -1,5 +1,5 @@
 # Beleg Dateitransfer
-## AUfgabenstellung
+## Aufgabenstellung
 Erstellen Sie ein Programm (client + server) zur Übertragung beliebiger Dateien zwischen zwei Rechnern, basierend auf dem UDP-Protokoll. Das Programm soll mit der Sprache JAVA erstellt werden und im Labor S311 unter Linux lauffähig sein und dort vorgeführt werden. Folgende Punkte sind umzusetzen:
 
 1. **Aufruf des Clients** (Quelle) auf der Konsole mit den Parametern: Zieladresse (IP oder Hostname) + Portnummer + Dateiname + Protokoll (sw|gbn)  
