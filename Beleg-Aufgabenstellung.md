@@ -17,9 +17,6 @@ Um die Aufrufe für Client und Server so zu realisieren ist ein kleines Bash-scr
 11. Der Abgabetermin ist auf der Website des Fachs zu finden, die Vorführung der Aufgabe findet dann zu den angekündigten Praktikumszeiten statt. Die Abgabe des Belegs erfolgt als tar-Archiv mit einem vorgegebenen Aufbau, Informationen hierzu werden im Dokument [Beleg-Abgabeformat](Beleg-Abgabeformat.md) bereitgestellt. **Plagiate werden mit Note 5** bewertet!
 12. Sie können zur Programmierung einen beliebigen Editor / Entwicklungsumgebung verwenden. Empfohlen wird die Entwicklungsumgebung IntelliJ IDEA welche für Studenten kostenlos erhältlich ist.
 13. Die Note 1 können Sie nur erhalten, wenn beide Protokolle (SW und GBN) korrekt implementiert sind. 
-14. **Optional**:
-    * Umsetzung des Clients in C und Nachweis der Funktionsfähigkeit durch Datenübertragung zum Java-Server.
-    * Bei Interesse können Sie einzelne Klassen oder den Beleg auch in Kotlin programmieren.
 
 ## Lernaspekte
 * Rechnernetze/Kommunikationsprotokolle
