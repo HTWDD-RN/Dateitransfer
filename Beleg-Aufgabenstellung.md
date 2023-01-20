@@ -2,8 +2,8 @@
 ## Aufgabenstellung
 Erstellen Sie ein Programm (client + server) zur Übertragung beliebiger Dateien zwischen zwei Rechnern, basierend auf dem UDP-Protokoll. Das Programm soll mit der Sprache JAVA erstellt werden und im Labor S311 unter Linux lauffähig sein und dort vorgeführt werden. Folgende Punkte sind umzusetzen:
 
-1. **Aufruf des Clients** (Quelle) auf der Konsole mit den Parametern: Zieladresse (IP oder Hostname) + Portnummer + Dateiname + Protokoll (sw|gbn)  
-(Bsp.: `filetransfer client is311p1 3333 test.gif gbn`)
+1. **Aufruf des Clients** (Quelle) auf der Konsole mit den Parametern: Zieladresse (IP oder Hostname) + Portnummer + Dateiname + Fenstergröße (1-100)  
+(Bsp.: `filetransfer client is311p1 3333 test.gif 1`) (Fenstergröße 1 entspricht Protokoll SW)
 2. **Aufruf des Servers** (Ziel) mit den Parametern: Portnummer (Bsp.: `filetransfer server 3333`). 
 Um die Aufrufe für Client und Server so zu realisieren ist ein kleines Bash-script notwendig (z.B.: `java Clientklasse $1 $2 $3`)
 3. Auf dem Zielrechner (Server) ist die Datei unter Verwendung des korrekten Dateinamens im Pfad des Servers abzuspeichern. Ist die Datei bereits vorhanden, soll an den Basisnamen der neuen Datei das Zeichen „1“ angehängt werden. Client und Server sollten auch auf dem selben Rechner im selben Pfad funktionieren.
