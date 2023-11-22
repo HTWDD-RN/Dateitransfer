@@ -54,7 +54,7 @@ public abstract class ARQAbst implements ARQ {
   protected abstract int getPacketNr(DatagramPacket packet);
 
   /**
-   * Receiver: Collects the gbn and backdata from the ACK packet -> member variables
+   * Sender: Collects the gbn and backdata from the ACK packet -> member variables
    * @param packet
    */
   protected abstract void getAckData(DatagramPacket packet);
