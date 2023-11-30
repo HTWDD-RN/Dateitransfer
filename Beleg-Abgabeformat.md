@@ -25,13 +25,13 @@ sXXXXX		← Ihre eigene S-Nummer  
 ```
 
 * In der README.md steht Ihr Name und die Funktionalität der Programme, also was funktioniert und was funktioniert nicht. Das Format der README.md ist plain ASCII (Markdown) kein Word etc.  
-Testen Sie konkret folgende. Szenarien und geben das Ergebnis an:
+Testen Sie konkret folgende Szenarien und geben das Ergebnis an:
   * Funktion Ihres Clients + Server ohne Fehlersimulation
   * Funktion Ihres Clients + Server mit Fehlersimulation
   * Funktion Ihres Clients + Server über Hochschulproxy
   * Funktion Ihres Clients + Hochschulserver ohne Fehlersimulation
   * Funktion Ihres Clients + Hochschulserver mit Fehlersimulation
-* Mit make.sh sollen die Klassen neu erstellt werden können.
+* Mittels Aufruf von `make.sh` sollen die Klassen neu erstellt werden können.
 * Sie können auch mit Packages arbeiten, was bedeutet, dass Unterverzeichnisse in bin/ und src/ existieren. Es muss aber gewährleistet sein, dass mit dem Aufruf von make.sh alle Programme korrekt erstellt werden und ein Aufruf von filetransfer korrekt funktioniert.
 * Das Skript `filetransfer` sollte beim Aufruf aus dem sXXXXX-Verzeichnis funktionieren aber auch beim Aufruf aus dem eine Ebene höher gelegenen Verzeichnis. Dies kann über den classpath-Parameter in den Skripten realisiert werden (z.B. `java -cp bin:sXXXXX/bin FileCopy $1 $2 $3`). Die übertragene Datei sollte im aktuellen Verzeichnis gespeichert werden.
   * Bsp.:  `./s1234/filetransfer client localhost 3333 test/dresden.jpg`
